@@ -1,0 +1,14 @@
+last_digit = 5  # Остання цифра вашого номеру студента
+array_length = 10 + last_digit
+
+input_array = []
+for i in range(array_length):
+    element = int(input(f"Введіть {i + 1}-й елемент масиву: "))
+    input_array.append(element)
+
+max_element = max(input_array)
+
+reversed_array = input_array[::-1]
+
+print("Масив у зворотньому порядку:", reversed_array)
+print("Максимальний елемент:", max_element)
