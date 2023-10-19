@@ -1,0 +1,31 @@
+# -*- coding: utf-8 -*-
+
+# a.) Extend the list by adding all elements from the list [3, 6, 7].
+my_list = [1, 2, 3, 4, 5]
+my_list.extend([3, 6, 7])
+print("a.) Extended list:", my_list)
+
+# b.) Insert the value 33333 at the second element.
+my_list.insert(1, 33333)
+print("b.) List with inserted value:", my_list)
+
+# c.) Reverse the list.
+my_list.reverse()
+print("c.) List in reverse order:", my_list)
+
+# d.) Add 3 to the end of the list.
+my_list.append(3)
+print("d.) List with added value at the end:", my_list)
+
+# e.) Remove the first element in the list that has the value 3.
+if 3 in my_list:
+    my_list.remove(3)
+print("e.) List with the first occurrence of 3 removed:", my_list)
+
+# f.) Sort the list in ascending order.
+my_list.sort()
+print("f.) List in ascending order:", my_list)
+
+# g.) Clear the list.
+my_list.clear()
+print("g.) Empty list:", my_list)
